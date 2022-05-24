@@ -28,7 +28,7 @@ Após criado fica assim:
             const cliente1 = new Cliente()
 
             cliente1.nome = 'Edrielle';
-            cliente1.cpf = 14289165710;
+            cliente1.cpf = 143434345710;
             cliente1.agencia = 1001;
             cliente1.saldo = 0;
 
@@ -40,7 +40,7 @@ Caso queira criar outro so criar variavel e new cliente().
 
         const cliente2 = new Cliente()
         cliente2.nome = 'Alice';
-        cliente2.cpf = 14389165710;
+        cliente2.cpf = 143434345710;
         cliente2.agencia = 1001;
         cliente2.saldo = 0;
 
@@ -124,12 +124,12 @@ Então o # na frente da variavel, informa que ele é privado e não pode ser alt
         const cliente1 = new Cliente()
 
         cliente1.nome = 'Edrielle';
-        cliente1.cpf = 14289165710;
+        cliente1.cpf = 143434345710;
 
 
         const cliente2 = new Cliente()
         cliente2.nome = 'Alice';
-        cliente2.cpf = 14389165710;
+        cliente2.cpf = 143434345710;
 
         const contaCorrenteEdrielle = new contaCorrente();
         contaCorrenteEdrielle.#saldo = 10000
@@ -232,7 +232,7 @@ você cria o cliente normalmente:
 
          const cliente1 = new Cliente()
          cliente1.nome = 'Edrielle'
-         cliente1.cpf = 13493839438;
+         cliente1.cpf = 143434345710;
 
          na hora de criar a do contacorrente:
 
